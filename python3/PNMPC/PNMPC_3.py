@@ -229,7 +229,7 @@ u_data_normal[:,1] = feature_scaling(some_input[:,1],f_max,f_min)
 ##in this case, an ESN is used, with the parameters arbitrariely selected.
 ##Obviously, the ESN is a bit overkill for the problem of training a linear third order system...
 ##
-import ESN_JUAN as RNN
+
 toy_esn = EchoStateNetwork(neu = 100,
                            n_in = 2,
                            n_out = 3,
